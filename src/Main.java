@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ticket_price = 2000; // стоимость билета
-        int bonus = 20; // за каждые 20 рублей начисляется 1 бонусная миля
+        int ticket_Price = 2000;
+        int bonus = 20;
 
         System.out.println("Итого бонусных милей вышло");
-        System.out.println(ticket_price/bonus);
+        System.out.println(ticket_Price / bonus);
     }
 }
